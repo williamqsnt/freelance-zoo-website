@@ -11,6 +11,245 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+*{
+  padding  :0;
+  margin : 0;
+  text-decoration : none;
+  list-style-type: none;
+}
+
+.fullPage{
+  width : 100%;
+  height : 100%;
+}
+
+.Header{
+  width : 100%;
+  height : 70vh;
+  background : url(../public/assets/bg.png);
+  background-repeat : no-repeat;
+  background-size : 100%;
+}
+.Header h1{
+  height : 80%;
+  width : 100%;
+  color : white;
+  font-size : 8em;
+  display : flex;
+  align-items : center;
+  justify-content: center;
+}
+.Menus{
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  flex-direction: column;
+}
+.Menus .flag ul{
+  display : flex;
+  box-shadow : 2px 2px 2px black;
+}
+.Menus .flag li{
+  list-style-type : none;
+  color : white;
+  padding : 1em;
+  font-weight: 500;
+  cursor : pointer;
+}
+.Menus .list ul{
+  display : flex;
+}
+.Menus .list li{
+  color : white;
+  margin : 1.5em;
+  font-weight: 500;
+}
+
+.HeaderInfos{
+  height : 30vh;
+  display : flex;
+  align-items : center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.HeaderInfos h3{
+  margin : 0.5em;
+}
+.HeaderInfos p{
+  margin : 0 8em;
+}
+.HeaderInfos .btn{
+  margin-top : 1em;
+  padding : 0.8em 1.2em;
+  background-color : green;
+  color : white;
+  font-weight: bolder;
+  font-size : 1.5em;
+}
+.HeaderInfos .btn:hover{
+  background-color : rgb(1, 167, 1);
+  transition: 0.5s;
+}
+
+.dropdown-menu{
+  display : none;
+  position : absolute;
+  background-color : white;
+  
+}
+.dropdown-menu a{
+  color : black;
+  display : block;
+  padding : 1em 2em;
+}
+.dropdown-menu a:hover{
+  background-color : green;
+  transition : 0.3s;
+  color : white;
+}
+
+.menu:hover .dropdown-menu{
+  display : block;
+}
+
+.ZooHours{
+  background-color : #017585;
+  display : flex;
+  margin : 2em 0em;
+}
+.ZooHours div{
+  display : flex;
+  align-items : center;
+  justify-content: center;
+  width : 100%;
+}
+.ZooHours div div{
+  width : 100%;
+  margin : 2em;
+}
+.ZooHours div div h2{
+  font-size : 2.5em;
+}
+.ZooHours div div h3{
+  font-size : 1.5em;
+  color : white;
+}
+
+.support{
+  background-color : green;
+}
+.support div{
+  padding : 2em;
+  color : white;
+}
+
+
+
+.section1{
+  height : 35vh;
+  display : flex;
+  align-items : center;
+  justify-content: space-evenly;
+}
+
+.round{
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  text-align : center;
+}
+.round img{
+  border-radius : 50%;
+}
+.round h3{
+  margin-top : 1em;
+  font-size : 1.5em;
+  font-weight: 400;
+}
+
+
+.section2{
+  margin-top : 2em;
+  display : flex;
+  flex-direction: column;
+}
+.section2 h2{
+  text-align: center;
+  font-size : 3em;
+  color : green;
+}
+
+.section3{
+  background-color : lightgrey;
+  padding : 2em;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  flex-direction: column;
+}
+.section3 .social{
+  display : flex;
+}
+.section3 .connect h2{
+  margin-top : 1em;
+  font-size : 3em;
+  color : darkorange;
+}
+.section3 .connect h3{
+  margin : 1em;
+  text-align : center;
+}
+.social a{
+  color : unset;
+  margin : 1em;
+}
+.social a svg{
+  color : darkorange;
+}
+.connect-img{
+  display : flex;
+  margin : 1em;
+}
+.connect-img div{
+  margin : 0.5em;
+  width : 300px;
+  height : 300px;
+  background-color : black;
+}
+
+footer{
+  color : white;
+  background-color : black;
+  padding : 2em;
+}
+.footer-top h3{
+  color : green;
+  font-size : 2em;
+  margin : 1em;
+}
+.footer-top p{
+  font-size : 1.25em;
+  margin : 1em;
+}
+footer hr{
+  border : 2px solid green;
+}
+.footer-menu ul{
+  display : flex;
+  align-items : center;
+  justify-content: center;
+}
+.footer-menu li{
+  margin : 0.5em;
+  font-size : 1.25em;
+  color : lightgreen;
+}
+.footer-bottom{
+  margin : 1em;
+  margin-top : 3em;
+}
+.footer-bottom p{
+  margin-top : 1em;
+  font-size : 1.25em;
 }
