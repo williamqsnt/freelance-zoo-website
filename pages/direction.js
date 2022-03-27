@@ -32,7 +32,7 @@ export default function hours() {
                         <div style={{border : '2px solid #cfdb52', width : '100%'}}></div>
                     </div>
                     
-                    <div style={{display : 'flex'}}>
+                    <div className="directions" style={{display : 'flex'}}>
                         <div className="block-hours">
                             <h3>DRIVE YOUR CAR</h3>
                             <div> 
@@ -43,7 +43,7 @@ export default function hours() {
                             </div>
                         </div>
 
-                        <div className="block-hours" style={{marginLeft : '1em'}}>
+                        <div className="block-hours">
                             <h3>TAKE THE BUS</h3>
                             <div> 
                                 <strong>Open Daily</strong><br/>
@@ -70,7 +70,16 @@ export default function hours() {
 
 
 const Container = styled.div`
-
+    @media(max-width : 800px){
+        .directions{
+            display : flex;
+            flex-direction : column;
+            
+            div{
+                padding : unset;
+            }
+        }
+    }
 
 
     .s2{

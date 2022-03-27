@@ -23,7 +23,7 @@ export default function Home() {
     <div className='HeaderInfos'>
       <h3><strong>We strongly recommend for you to purchase your tickets online in advance of your visit.</strong></h3>
       <h3>BRING YOUR MASK TO ENJOY THE FULL ZOO EXPERIENCE</h3>
-      <p>Masks are required for all (ages 5+) in indoor spaces including restrooms, restaurants, shops and indoor exhibits.
+      <p>Masks are required for all (ages 5+) in indoor spaces including restrooms, restaurants, shops and indoor exhibits.<br/>
       For information about disability accommodations and other safety protocols, see the <a href="#" style={{color : '#017585', fontWeight : '700'}}>Guest FAQ</a>.</p>
       <a href="#" className='btn'>PLAN YOUR VISIT</a>
     </div>
@@ -31,13 +31,13 @@ export default function Home() {
     <div className="ZooHours">
       <div>
         <div>
-           <h2 style={{color : '#96d7d2'}}>ZOO HOURS</h2>
+           <p style={{color : '#96d7d2', fontWeight : '700'}}>ZOO HOURS</p>
         </div>
         <div>
-          <h3 style={{fontWeight : '600'}}>OPEN DAILY</h3>
+          <p style={{fontWeight : '600'}}>OPEN DAILY</p>
         </div>
         <div>
-           <h3>9:30 a.m. - 4.:00 p.m.</h3>
+           <p>9:30 a.m. - 4.:00 p.m.</p>
         </div>
       </div>
     

@@ -35,7 +35,7 @@ export default function tickets() {
                        
                         <div className='left'>
 
-                            <div style={{marginLeft : '5em'}}>
+                            <div style={{margin : '1em'}}>
                            
                    
                         <h2>Plan your visit</h2>
@@ -47,7 +47,7 @@ export default function tickets() {
                             <div style={{marginTop : '2em'}}>
                                 <p>Discount for Persons with Disabilities $2 off regular admission, 1:1 aides are complimentary.</p>
                                 <p><strong>Learn more about accessibility at the zoo</strong></p>
-                                <p style={{margin : '2em 0em'}}>For current ticket prices, please visit our ticket purchasing page by clicking the 'Buy Tickets' button.</p>
+                                <p style={{margin : '2em 0em'}}>For current ticket prices, please visit our ticket purchasing page by clicking the Buy Tickets button.</p>
                             </div>
                             <a href="">BUY TICKETS</a>
                             </div>
@@ -90,14 +90,15 @@ const Container = styled.div`
 
         .maps{
 
+        
         width : 100%;
         
         
             .left{
                 background-color : green;
-                width : 50%;
+                width : 100%;
                 display : flex;
-                align-items : flex-start;
+                align-items : center;
                 justify-content : center;
                 flex-direction : column;
                 padding-bottom : 5em;

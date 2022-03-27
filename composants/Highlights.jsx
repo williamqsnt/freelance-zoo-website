@@ -43,11 +43,13 @@ const Container = styled.div`
     display : flex;
     align-items : center;
     justify-content : space-evenly;
+    flex-wrap : wrap;
     margin : 2em;
     .block{
-        width : 30%;
+        width : 400px;
         height : 300px;
         border : 2px solid black;
+        margin : 1em;
     }
 
 `

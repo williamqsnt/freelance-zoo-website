@@ -19,7 +19,7 @@ export default function maps() {
             </div>
             <Container>
                 <section className="s1">
-                    <h3>WHILE YOU'RE HERE</h3>
+                    <h3>WHILE YOU RE HERE</h3>
                     <h4>Maps, rentals, dining and shopping information</h4> 
                 </section>
              
@@ -35,7 +35,7 @@ export default function maps() {
                        
                         <div className='left'>
 
-                            <div style={{marginLeft : '5em'}}>
+                            <div>
                            
                    
                         <h2>Maps and Guides</h2>
@@ -80,7 +80,13 @@ export default function maps() {
 
 
 const Container = styled.div`
-
+    @media(max-width : 980px){
+        .maps{
+            .left{
+                width : 100%;
+            }
+        }
+    }
 
     .s2{
         display : flex;
@@ -89,19 +95,17 @@ const Container = styled.div`
 
 
         .maps{
-
-        width : 100%;
         
+        width : 100%;
         
             .left{
                 background-color : green;
-                width : 50%;
                 display : flex;
-                align-items : flex-start;
+                align-items : center;
                 justify-content : center;
                 flex-direction : column;
                 padding-bottom : 5em;
-
+                
                 
                 p{
                     color : white;

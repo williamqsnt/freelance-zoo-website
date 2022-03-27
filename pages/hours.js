@@ -73,7 +73,7 @@ export default function hours() {
                         <div style={{border : '2px solid #cfdb52', width : '100%'}}></div>
                     </div>
 
-                    <div style={{margin : '3em 10em'}}>
+                    <div style={{margin : '3em 1em'}}>
                         <h3>Please respect other guests at the zoo as well as the zoo animals :</h3><br/>
                         <ul>
                             <li>∙ The zoo is a non-smoking facility</li>

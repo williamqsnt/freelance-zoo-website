@@ -30,15 +30,35 @@ a {
   background-repeat : no-repeat;
   background-size : 100%;
 }
+
+@media(max-width : 900px){
+  .Header{
+    height : 40vh;
+    
+  }
+  .Header h1{
+    font-size : 4em;
+  }
+}
+@media(max-width : 500px){
+  .Header{
+    height : 30vh;
+  }
+}
 .Header h1{
-  height : 80%;
   width : 100%;
   color : white;
-  font-size : 8em;
+  font-size : 9em;
   display : flex;
   align-items : center;
   justify-content: center;
 }
+@media(max-width : 700px){
+  .Header h1{
+    font-size : 3em;
+  }
+}
+
 .Menus{
   display : flex;
   align-items : center;
@@ -76,9 +96,7 @@ a {
 .HeaderInfos h3{
   margin : 0.5em;
 }
-.HeaderInfos p{
-  margin : 0 8em;
-}
+
 .HeaderInfos .btn{
   margin-top : 1em;
   padding : 0.8em 1.2em;
@@ -128,13 +146,25 @@ a {
   width : 100%;
   margin : 2em;
 }
-.ZooHours div div h2{
-  font-size : 2.5em;
-}
-.ZooHours div div h3{
-  font-size : 1.5em;
+
+.ZooHours div div p{
+  font-size : 2em;
   color : white;
 }
+
+@media(max-width : 1080px){
+  .ZooHours div div p {
+    font-size : 1em;
+  }
+}
+@media(max-width : 700px){
+  .ZooHours div div p {
+    font-size : 0.7em;
+  }
+}
+
+
+
 
 .support{
   background-color : green;
@@ -200,6 +230,11 @@ a {
   margin : 1em;
   text-align : center;
 }
+.social{
+  display : flex;
+  flex-wrap : wrap;
+  justify-content: center;
+}
 .social a{
   color : unset;
   margin : 1em;
@@ -210,6 +245,8 @@ a {
 .connect-img{
   display : flex;
   margin : 1em;
+  justify-content: center;
+  flex-wrap : wrap;
 }
 .connect-img div{
   margin : 0.5em;
@@ -225,7 +262,7 @@ footer{
 }
 .footer-top h3{
   color : green;
-  font-size : 2em;
+  font-size : 1.5em;
   margin : 1em;
 }
 .footer-top p{
@@ -239,6 +276,7 @@ footer hr{
   display : flex;
   align-items : center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .footer-menu li{
   margin : 0.5em;
@@ -252,4 +290,13 @@ footer hr{
 .footer-bottom p{
   margin-top : 1em;
   font-size : 1.25em;
+}
+
+@media(max-width : 535px){
+  .Menus li{
+    font-size : 0.7em;
+  }
+  .Menus a{
+    font-size : 0.5em;
+  }
 }
