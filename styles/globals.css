@@ -134,7 +134,7 @@ a {
 .ZooHours{
   background-color : #017585;
   display : flex;
-  margin : 2em 0em;
+  margin : 4em 0em;
 }
 .ZooHours div{
   display : flex;
@@ -198,6 +198,15 @@ a {
   font-weight: 400;
 }
 
+@media(max-width : 600px){
+  .section1{
+    flex-direction: column;
+    padding : 8em;
+  }
+  .round{
+    margin : 1em;
+  }
+}
 
 .section2{
   margin-top : 2em;
